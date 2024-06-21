@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Corpo da aplicação */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* Cabeçalhos */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Div principal */
+.main-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Elementos de dropdown */
+.dccDropdown {
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Gráficos */
+.dccGraph {
+    margin-top: 20px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.centered-image {
+    width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
